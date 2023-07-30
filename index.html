@@ -1,0 +1,1444 @@
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;700&family=Barlow:wght@300;500;700&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      href="https://www.drogas.lt/elab/eLab/template_library/drogas/css/master.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <style>
+      #es-maybelline.es-maybelline {
+        font-family: 'Barlow', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.2;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        color: #000;
+        background: #fff;
+      }
+
+      #es-maybelline.es-maybelline * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      #es-maybelline.es-maybelline h2,
+      #es-maybelline.es-maybelline h3,
+      #es-maybelline.es-maybelline h4,
+      #es-maybelline.es-maybelline h5 {
+        font-family: 'Barlow', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__logo {
+        background: #000;
+        padding: 20px 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-logo {
+        opacity: 0;
+        -webkit-animation: slidedown 0.6s forwards;
+        animation: slidedown 0.6s forwards;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-badge {
+        display: none;
+        padding-top: 24px;
+        margin-left: 0;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-photo {
+        width: 100%;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-packshot {
+        max-height: 300px;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-info {
+        max-width: none;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__content {
+        position: relative;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        position: absolute;
+        bottom: 20px;
+        left: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 42px;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        line-height: 1;
+        opacity: 0;
+        -webkit-animation: slideright 0.6s forwards;
+        animation: slideright 0.6s forwards;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__subtitle {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 23px;
+        letter-spacing: -1px;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        line-height: 1;
+        opacity: 0;
+        -webkit-animation: slideright 0.6s forwards;
+        animation: slideright 0.6s forwards;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__sup {
+        line-height: 0;
+        font-size: 0.5em;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__name {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 53px;
+        letter-spacing: -1px;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__label {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 33px;
+        letter-spacing: -1px;
+        background: #000;
+        color: #fdc00f;
+        text-align: center;
+        max-width: 225px;
+        padding: 4px 0;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 64px;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__photo {
+        position: relative;
+        margin: 0 auto;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__packshot {
+        position: absolute;
+        bottom: 0;
+        left: -16px;
+        opacity: 0;
+        -webkit-animation: slideup 0.8s forwards;
+        animation: slideup 0.8s forwards;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__info {
+        position: absolute;
+        bottom: 32px;
+        right: 48px;
+        z-index: 2;
+        opacity: 0;
+        -webkit-animation: slideleft 0.8s forwards;
+        animation: slideleft 0.8s forwards;
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__img-info {
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__brand {
+        margin-bottom: 72px;
+      }
+
+      #es-maybelline.es-maybelline .es-kv__disclaimer {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+      }
+
+      #es-maybelline.es-maybelline .es-features {
+        margin-bottom: 48px;
+      }
+
+      #es-maybelline.es-maybelline .es-features__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        padding: 32px 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: -1px;
+        text-align: center;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline .es-features__title-span {
+        font-weight: 300;
+      }
+
+      #es-maybelline.es-maybelline .es-features__subtitle {
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+        font-size: 16px;
+        color: inherit;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: inherit;
+        padding: 0 16px;
+        text-align: center;
+        margin-bottom: 48px;
+        letter-spacing: -1px;
+      }
+
+      #es-maybelline.es-maybelline .es-features__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 32px 0px;
+      }
+
+      #es-maybelline.es-maybelline .es-features__single {
+        width: 307px;
+      }
+
+      #es-maybelline.es-maybelline .es-features__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #es-maybelline.es-maybelline .es-features__benefit {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 16px;
+        text-align: center;
+      }
+
+      #es-maybelline.es-maybelline .es-features__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: inherit;
+        margin-bottom: 16px;
+        text-align: center;
+        letter-spacing: -1px;
+      }
+
+      #es-maybelline.es-maybelline .es-features__sup {
+        line-height: 0;
+        font-size: 0.5em;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits {
+        margin-bottom: 48px;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 42px;
+        letter-spacing: -1px;
+        margin-bottom: 64px;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        gap: 32px;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__image {
+        display: none;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-right: 0;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__content {
+        padding: 0 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 16px;
+        margin-bottom: 64px;
+      }
+
+      #es-maybelline.es-maybelline
+        .es-benefits__item:nth-child(2)
+        .es-benefits__text {
+        width: 100%;
+        max-width: 240px;
+      }
+
+      #es-maybelline.es-maybelline
+        .es-benefits__item:nth-child(3)
+        .es-benefits__text {
+        width: 100%;
+        max-width: 340px;
+      }
+
+      #es-maybelline.es-maybelline
+        .es-benefits__item:nth-child(4)
+        .es-benefits__text {
+        width: 100%;
+        max-width: 440px;
+      }
+
+      #es-maybelline.es-maybelline
+        .es-benefits__item:nth-child(5)
+        .es-benefits__text {
+        width: 100%;
+        max-width: 540px;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__sup {
+        line-height: 0;
+        font-size: 0.5em;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__number {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      #es-maybelline.es-maybelline .es-benefits__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        padding-top: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-top: 2px solid #000;
+        margin-top: 11px;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #es-maybelline.es-maybelline .es-benefits__text sup {
+        font-size: 20px;
+      }
+
+      #es-maybelline.es-maybelline .es-background-white {
+        background-image: url(images/bg-white.png);
+      }
+
+      #es-maybelline.es-maybelline .es-colors {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0 16px;
+        margin-bottom: 80px;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: -1px;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 64px;
+        padding: 0 16px;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__title-span {
+        font-weight: 300;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 32px 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__single {
+        width: 205px;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__single:hover a {
+        color: #ca549a;
+      }
+
+      #es-maybelline.es-maybelline .es-colors__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 18px;
+        margin-top: 24px;
+        border-top: 2px solid #000;
+        font-weight: 700;
+        padding: 16px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline a {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        background: #000;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__sup {
+        line-height: 0;
+        font-size: 0.5em;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__single {
+        width: 333px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba {
+        margin-bottom: 80px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: -1px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        padding: 0 16px;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__title-span {
+        font-weight: 300;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 32px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__before,
+      #es-maybelline.es-maybelline .es-ba__after {
+        max-width: 470px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__before:hover .es-ba__img {
+        transform: scale(1.1);
+      }
+      #es-maybelline.es-maybelline .es-ba__after:hover .es-ba__img {
+        transform: scale(1.1);
+      }
+
+      #es-maybelline.es-maybelline .es-ba__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.3s;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: inherit;
+        margin: 0 auto;
+        margin-bottom: 64px;
+        text-align: center;
+        max-width: 800px;
+        padding-inline: 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: space-between;
+        -ms-flex-pack: space-between;
+        justify-content: space-between;
+        gap: 32px 0;
+        margin-bottom: 32px;
+      }
+
+      #es-maybelline.es-maybelline .es-ba__desc {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-size: 16px;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 16px;
+        text-transform: uppercase;
+      }
+
+      #es-maybelline.es-maybelline .es-disc {
+        margin: 0 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-disc__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        text-align: center;
+        font-size: 11px;
+        padding-bottom: 24px;
+      }
+
+      #es-maybelline.es-maybelline .es-cross {
+        margin-bottom: 56px;
+        padding: 40px 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__title {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: -1px;
+        margin-bottom: 56px;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__title-span {
+        font-weight: 300;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        gap: 32px 8px;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__single {
+        max-width: 300px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__packshot {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        width: 100%;
+        border-bottom: 1px solid #000;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__name {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: inherit;
+        text-transform: uppercase;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 8px;
+        min-height: 38px;
+      }
+
+      #es-maybelline.es-maybelline .es-cross__desc {
+        min-height: 96px;
+        margin: 0;
+        padding: 0;
+        line-height: 1.2;
+        color: inherit;
+        font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: inherit;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 16px;
+        letter-spacing: -1px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      #es-maybelline.es-maybelline a {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-size: 20px;
+        font-family: inherit;
+        font-weight: inherit;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+      }
+      #es-maybelline.es-maybelline .es-cross__sup {
+        line-height: 0;
+        font-size: 0.5em;
+      }
+
+      #es-maybelline.es-maybelline .es-disc__sup {
+        line-height: 0;
+        font-size: 1em;
+      }
+
+      #es-maybelline.es-maybelline .es-footer__text {
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+        color: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+
+      #es-maybelline.es-maybelline .es-footer__logo {
+        background: #000;
+        padding: 20px 16px;
+      }
+
+      #es-maybelline.es-maybelline .es-background {
+        background-image: url(images/bg.jpg);
+      }
+
+      @media screen and (min-width: 668px) {
+        #es-maybelline.es-maybelline .es-kv__container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          overflow: hidden;
+        }
+        #es-maybelline.es-maybelline .es-kv__photo {
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+        }
+        #es-maybelline.es-maybelline .es-kv__packshot {
+          bottom: 0;
+          left: -24px;
+          right: unset;
+        }
+        #es-maybelline.es-maybelline .es-kv__img-badge {
+          margin-right: 16px;
+          margin-left: auto;
+        }
+        #es-maybelline.es-maybelline .es-kv__img-photo {
+          -o-object-fit: cover;
+          object-fit: cover;
+          height: 100%;
+        }
+        #es-maybelline.es-maybelline .es-kv__content {
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+        }
+        #es-maybelline.es-maybelline .es-kv {
+          padding-top: 37px;
+          position: relative;
+        }
+        #es-maybelline.es-maybelline .es-kv__img-badge {
+          display: block;
+          padding: 0;
+          margin: 0;
+        }
+        #es-maybelline.es-maybelline .es-kv__badge {
+          position: absolute;
+          top: 0;
+          right: 40px;
+        }
+        #es-maybelline.es-maybelline .es-ba__single {
+          width: 210px;
+          transition: all 0.3s;
+        }
+        #es-maybelline.es-maybelline .es-ba__single:hover .es-ba__img {
+          transform: scale(1.1);
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        #es-maybelline.es-maybelline .es-kv__subtitle {
+          bottom: 32px;
+        }
+        #es-maybelline.es-maybelline .es-features__title {
+          font-size: 30px;
+        }
+        #es-maybelline.es-maybelline .es-benefits__title {
+          font-size: 34px;
+        }
+        #es-maybelline.es-maybelline .es-colors__title {
+          font-size: 34px;
+        }
+        #es-maybelline.es-maybelline .es-cross__title {
+          font-size: 34px;
+        }
+        #es-maybelline.es-maybelline .es-ba__title {
+          font-size: 32px;
+        }
+        #es-maybelline.es-maybelline .es-benefits {
+          margin-bottom: 0;
+        }
+        #es-maybelline.es-maybelline .es-benefits__container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: reverse;
+          -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          gap: 0;
+        }
+        #es-maybelline.es-maybelline .es-benefits__image {
+          display: block;
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+        }
+        #es-maybelline.es-maybelline .es-benefits__content {
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+          margin-right: -277px;
+          padding-left: 37px;
+          -ms-flex-positive: 1;
+          flex-grow: 1;
+        }
+        #es-maybelline.es-maybelline .es-features__img {
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+        #es-maybelline.es-maybelline .es-features__tile {
+          overflow: hidden;
+        }
+        #es-maybelline.es-maybelline
+          .es-features__single:hover
+          .es-features__img {
+          transform: scale(1.2);
+        }
+        #es-maybelline.es-maybelline .es-colors__img {
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+        #es-maybelline.es-maybelline .es-colors__single:hover .es-colors__img {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+        #es-maybelline.es-maybelline .es-cross__img {
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+        #es-maybelline.es-maybelline a {
+          -webkit-transition: color 0.3s;
+          transition: color 0.3s;
+        }
+        #es-maybelline.es-maybelline .es-cross__single:hover .es-cross__img {
+          -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+        #es-maybelline.es-maybelline .es-cross__single:hover a {
+          color: #ca549a;
+        }
+      }
+
+      @media screen and (min-width: 940px) {
+        #es-maybelline.es-maybelline .es-kv__title {
+          font-size: 34px;
+        }
+        #es-maybelline.es-maybelline .es-ba {
+          padding: 32px 16px;
+          border-radius: 25px;
+          border: solid white 2px;
+          max-width: 900px;
+          margin-inline: auto;
+        }
+        #es-maybelline.es-maybelline .es-ba__container {
+          margin-bottom: 64px;
+          -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+        }
+        #es-maybelline.es-maybelline .es-ba__before,
+        #es-maybelline.es-maybelline .es-ba__after {
+          min-width: 460px;
+        }
+        #es-maybelline.es-maybelline .es-ba {
+          margin-top: -120px;
+        }
+      }
+
+      @-webkit-keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes slideup {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(32px);
+          transform: translateY(32px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes slideup {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(32px);
+          transform: translateY(32px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+      }
+
+      @-webkit-keyframes slidedown {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(-32px);
+          transform: translateY(-32px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes slidedown {
+        from {
+          opacity: 0;
+          -webkit-transform: translateY(-32px);
+          transform: translateY(-32px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+      }
+
+      @-webkit-keyframes slideright {
+        0% {
+          opacity: 0.3;
+          -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes slideright {
+        0% {
+          opacity: 0.3;
+          -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+
+      @-webkit-keyframes slideleft {
+        from {
+          opacity: 0.3;
+          -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes slideleft {
+        from {
+          opacity: 0.3;
+          -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+        }
+        to {
+          opacity: 1;
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+      /*# sourceMappingURL=style.css.map */
+    </style>
+    <div class="es-maybelline" id="es-maybelline">
+      <div class="divContainer colNoMargin">
+        <div class="es-kv">
+          <div class="es-kv__logo">
+            <img
+              src="images/logo.png"
+              alt=""
+              class="es-kv__img es-kv__img-logo"
+            />
+          </div>
+          <div class="es-kv__container">
+            <div class="es-kv__photo">
+              <img
+                src="images/photo-1.jpg"
+                alt=""
+                class="es-kv__img es-kv__img-photo"
+              />
+              <h3 class="es-kv__title">
+                УВЕЛИЧЬТЕ СВОИ <br />
+                НАСТОЯЩИЕ РЕСНИЦЫ.
+              </h3>
+            </div>
+            <div class="es-kv__content">
+              <div class="es-kv__photo">
+                <img
+                  src="images/photo-2.jpg"
+                  alt=""
+                  class="es-kv__img es-kv__img-photo"
+                />
+              </div>
+              <div class="es-kv__info">
+                <img
+                  src="images/kv-txt.png"
+                  alt=""
+                  class="es-kv__img es-kv__img-info"
+                />
+                <img
+                  src="images/kv-before-after.png"
+                  alt=""
+                  class="es-kv__img es-kv__img-info"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divContainer colNoMargin">
+        <div class="es-background">
+          <div class="divContainer colNoMargin">
+            <div class="es-features">
+              <h3 class="es-features__title">
+                <span class="es-features__title-span">УВЕЛИЧЬТЕ СВОИ </span
+                >НАСТОЯЩИЕ РЕСНИЦЫ!
+              </h3>
+              <p class="es-features__subtitle">
+                Откройте для себя новую тушь для ресниц от Maybelline New
+                York,<br />
+                которая возведет ваши ресницы на новую высоту!
+              </p>
+              <div class="es-features__container">
+                <div class="es-features__single">
+                  <div class="es-features__tile">
+                    <img
+                      src="images/feature-1.jpg"
+                      alt=""
+                      class="es-features__img"
+                    />
+                  </div>
+                  <p class="es-features__benefit">
+                    УВЕЛИЧЕННАЯ <br />
+                    ЩЕТОЧКА HELIX,
+                  </p>
+                  <p class="es-features__text">
+                    которая прокрашивает ресницы от корней до кончиков,
+                    добиваясь невероятного эффекта.
+                  </p>
+                </div>
+                <div class="es-features__single">
+                  <div class="es-features__tile">
+                    <img
+                      src="images/feature-2.jpg"
+                      alt=""
+                      class="es-features__img"
+                    />
+                  </div>
+                  <p class="es-features__benefit">
+                    ГИБРИДНЫЕ ВОЛОКНА <br />
+                    РАЗНЫХ РАЗМЕРОВ,
+                  </p>
+                  <p class="es-features__text">
+                    с которыми вы увеличите объем <br />ресниц в
+                    10 раз<sup>*</sup>.
+                  </p>
+                </div>
+                <div class="es-features__single">
+                  <div class="es-features__tile">
+                    <img
+                      src="images/feature-3.jpg"
+                      alt=""
+                      class="es-features__img"
+                    />
+                  </div>
+                  <p class="es-features__benefit">
+                    СОСТАВ ОБОГАЩЕН <br />
+                    ПИТАТЕЛЬНЫМИ МАСЛАМИ
+                  </p>
+                  <p class="es-features__text">
+                    новое измерение комфорта для ресниц.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="divContainer colNoMargin">
+            <div class="es-benefits">
+              <div class="es-benefits__container">
+                <div class="es-benefits__image">
+                  <img src="images/brush.png" alt="" class="es-benefits__img" />
+                </div>
+                <div class="es-benefits__content">
+                  <h3 class="es-benefits__title">РЕЗУЛЬТАТ?</h3>
+                  <div class="es-benefits__item">
+                    <p class="es-benefits__number">1</p>
+                    <p class="es-benefits__text">
+                      В 10 раз больше объема
+                      <sup class="es-benefits__sup">*</sup>
+                    </p>
+                  </div>
+                  <div class="es-benefits__item">
+                    <p class="es-benefits__number">2</p>
+                    <p class="es-benefits__text">
+                      Удлинение
+                      <sup class="es-benefits__sup">*</sup>
+                    </p>
+                  </div>
+                  <div class="es-benefits__item">
+                    <p class="es-benefits__number">3</p>
+                    <p class="es-benefits__text">
+                      Сохраняется до 24 часов
+                      <sup class="es-benefits__sup">*</sup>
+                    </p>
+                  </div>
+                  <div class="es-benefits__item">
+                    <p class="es-benefits__number">4</p>
+                    <p class="es-benefits__text">
+                      Не размазывается, не осыпается и не пачкается
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="divContainer colNoMargin">
+            <div class="es-ba">
+              <h3 class="es-ba__title">
+                УЗНАЙТЕ, КАК СОЧЕТАЮТСЯ
+                <span class="es-ba__title-span">РЕАЛЬНОСТЬ И ВЫМЫСЕЛ</span>!
+              </h3>
+              <p class="es-ba__text">
+                Для достижения максимального эффекта – невероятного объема и
+                удлинения – нанесите <br />тушь для ресниц Falsies Surreal
+                Mascara по всей длине от корней до кончиков энергичными
+                движениями влево-вправо, направляя щеточку вверх. Для еще
+                большего эффекта густоты наносите следующий слой, пока не высох
+                предыдущий.
+              </p>
+              <div class="es-ba__container">
+                <div class="es-ba__before">
+                  <img src="images/before.jpg" alt="" class="es-ba__img" />
+                </div>
+                <div class="es-ba__after">
+                  <img src="images/after.jpg" alt="" class="es-ba__img" />
+                </div>
+              </div>
+              <div class="es-ba__content">
+                <div class="es-ba__single">
+                  <img src="images/icon-1.png" alt="" class="es-ba__img" />
+                  <p class="es-ba__desc">
+                    Подходит для пользователей контактных линз
+                  </p>
+                </div>
+                <div class="es-ba__single">
+                  <img src="images/icon-2.png" alt="" class="es-ba__img" />
+                  <p class="es-ba__desc">
+                    Подходит для чувствительных <br />глаз
+                  </p>
+                </div>
+                <div class="es-ba__single">
+                  <img src="images/icon-3.png" alt="" class="es-ba__img" />
+                  <p class="es-ba__desc">Прошла офтальмологическую проверку</p>
+                </div>
+                <div class="es-ba__single">
+                  <img src="images/icon-4.png" alt="" class="es-ba__img" />
+                  <p class="es-ba__desc">
+                    ВЕГАНСКИЙ <br />СОСТАВ
+                    <sup class="es-ba__sup">**</sup>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="divContainer colNoMargin">
+            <div class="es-background-white">
+              <div class="es-colors">
+                <h3 class="es-colors__title">
+                  <span class="es-colors__title-span">
+                    ПОЗНАКОМЬТЕСЬ С ПОЛНОЙ ЛИНИЕЙ <br />ТУШИ ДЛЯ
+                  </span>
+                  РЕСНИЦ FALSIES
+                </h3>
+                <div class="es-colors__container">
+                  <div class="es-colors__single">
+                    <div class="es-colors__tile">
+                      <img
+                        src="images/cross-1.png"
+                        alt=""
+                        class="es-colors__img"
+                      />
+                    </div>
+                    <p class="es-colors__text">
+                      FALSIES SURREAL<br />
+                      VERY BLACK
+                    </p>
+                    <a href="" class="es-colors__link">Посмотреть</a>
+                  </div>
+                  <div class="es-colors__single">
+                    <div class="es-colors__tile">
+                      <img
+                        src="images/cross-3.png"
+                        alt=""
+                        class="es-colors__img"
+                      />
+                    </div>
+                    <p class="es-colors__text">FALSIES LASH LIFT <br />BLACK</p>
+                    <a href="" class="es-colors__link">Посмотреть</a>
+                  </div>
+                  <div class="es-colors__single">
+                    <div class="es-colors__tile">
+                      <img
+                        src="images/cross-4.png"
+                        alt=""
+                        class="es-colors__img"
+                      />
+                    </div>
+                    <p class="es-colors__text">
+                      FALSIES LASH LIFT <br />ULTRA BLACK
+                    </p>
+                    <a href="" class="es-colors__link">Посмотреть</a>
+                  </div>
+                  <div class="es-colors__single">
+                    <div class="es-colors__tile">
+                      <img
+                        src="images/cross-5.png"
+                        alt=""
+                        class="es-colors__img"
+                      />
+                    </div>
+                    <p class="es-colors__text">
+                      FALSIES LASH LIFT<br />
+                      Waterproof
+                    </p>
+                    <a href="" class="es-colors__link">Посмотреть</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="es-cross">
+                <h3 class="es-cross__title">
+                  ЗАВЕРШИТЕ
+                  <span class="es-cross__title-span">СВОЙ МАКИЯЖ</span>
+                </h3>
+                <div class="es-cross__container">
+                  <div class="es-cross__single">
+                    <div class="es-cross__packshot">
+                      <img
+                        src="images/cross-6.png"
+                        alt=""
+                        class="es-cross__img"
+                      />
+                    </div>
+                    <p class="es-cross__name">
+                      Консилер Instant Anti-Age Eraser
+                    </p>
+                    <p class="es-cross__desc">
+                      Универсальный консилер для лица, <br />который маскирует
+                      несовершенства <br />кожи, темные круги под глазами,
+                      <br />и мелкие морщинки.
+                    </p>
+                    <a href="" class="es-cross__link">Посмотреть</a>
+                  </div>
+                  <div class="es-cross__single">
+                    <div class="es-cross__packshot">
+                      <img
+                        src="images/cross-7.png"
+                        alt=""
+                        class="es-cross__img"
+                      />
+                    </div>
+                    <p class="es-cross__name">Блеск для губ Lifter Gloss</p>
+                    <p class="es-cross__desc">
+                      Блеск для губ с гиалуроновой <br />кислотой и витамином Е,
+                      который <br />увлажняет губы и делает их заметно
+                      <br />более гладкими и выразительными.
+                    </p>
+                    <a href="" class="es-cross__link">Посмотреть</a>
+                  </div>
+                  <div class="es-cross__single">
+                    <div class="es-cross__packshot">
+                      <img
+                        src="images/cross-8.png"
+                        alt=""
+                        class="es-cross__img"
+                      />
+                    </div>
+                    <p class="es-cross__name">
+                      Лайнер для глаз Tattoo Liner Ink Pen 
+                    </p>
+                    <p class="es-cross__desc">
+                      Водостойкая формула подводки <br />устойчива к смазыванию,
+                      осыпанию <br />и выцветанию до 24 часов. Наслаждайся<br />
+                      ультрачерными и точными линиями!
+                    </p>
+                    <a href="" class="es-cross__link">Посмотреть</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="es-disc">
+                <p class="es-disc__text">
+                  <sup class="es-disc__sup">*</sup>Потребительский тест<br />
+                  <sup class="es-disc__sup">**</sup>Не содержит ингредиентов
+                  животного происхождения или их производных<br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="divContainer colNoMargin">
+            <div class="es-footer">
+              <div class="es-footer__logo">
+                <img src="images/logo.png" alt="" class="es-kv__img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
